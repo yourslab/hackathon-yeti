@@ -829,7 +829,7 @@
 
 /**
  * @brief Time in ticks to wait between each cycle of the demo implemented
- * by RunCoreMqttMutualAuthDemo().
+ * by RunCoreMqttYetiCamDemo().
  */
 #define mqttexampleDELAY_BETWEEN_DEMO_ITERATIONS_TICKS    ( pdMS_TO_TICKS( 5000U ) )
 
@@ -1124,7 +1124,7 @@ static MQTTFixedBuffer_t xBuffer =
  * connection to the broker goes down, the code tries to reconnect to the broker
  * with an exponential backoff mechanism.
  */
-int RunCoreMqttMutualAuthDemo( bool awsIotMqttMode,
+int RunCoreMqttYetiCamDemo( bool awsIotMqttMode,
                                const char * pIdentifier,
                                void * pNetworkServerInfo,
                                void * pNetworkCredentialInfo,
